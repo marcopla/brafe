@@ -54,3 +54,7 @@ a.menu-logo {
   color: white;
   font-size: 1.125em;
 }
+
+.intro {
+  background: url('../img/bg-intro.jpg');
+}
