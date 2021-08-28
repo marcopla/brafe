@@ -74,4 +74,12 @@ a.menu-logo {
   width: 20px;
   height: 4px;
   background: #fff;
+  margin: 10px auto;
 }
+
+.intro p {
+  font-style: italic;
+  font-size: 1.125em;
+}
+
+/* Sobre */
