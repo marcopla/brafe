@@ -306,7 +306,7 @@ h2.produtos-mineiro::before {
 
 .assine form {
   width: 460px;
-  margin: 0 10px;
+  margin: 10px 10px 0 10px;
   float: left;
 }
 
@@ -336,4 +336,34 @@ h2.produtos-mineiro::before {
   color: #fff;
   border: none;
   cursor: pointer;
+}
+
+/* Footer */
+
+.footer {
+  background: #d6d3c8;
+  padding: 40px 0;
+}
+
+.footer-container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.footer-container::after,
+.footer-container::before {
+  content: '';
+  display: table;
+  clear: both;
+}
+.footer p {
+  float: left;
+  margin: 0 10px;
+  font-size: 1.125em;
+  line-height: 1.4em;
+}
+
+.footer img {
+  float: right;
+  margin: 0 10px;
 }
