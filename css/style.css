@@ -366,4 +366,5 @@ h2.produtos-mineiro::before {
 .footer img {
   float: right;
   margin: 0 10px;
+  display: block;
 }
