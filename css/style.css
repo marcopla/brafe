@@ -157,9 +157,16 @@ a.menu-logo {
     max-width: 720px;
   }
   .sobre-item {
-    width: 300px;
+    width: 340px;
   }
 }
+
+@media (max-width: 739px) {
+  .sobre-container {
+    max-width: 300px;
+  }
+}
+
 /* Produtos */
 
 .produtos {
