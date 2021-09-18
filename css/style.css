@@ -318,6 +318,24 @@ h2.produtos-mineiro::before {
   padding: 10px 20px;
 }
 
+@media (min-width: 740px) and (max-width: 980px) {
+  .locais-container {
+    max-width: 720px;
+  }
+  .produtos-item {
+    width: 220px;
+  }
+}
+
+@media (max-width: 739px) {
+  .locais-container {
+    max-width: 300px;
+  }
+  .locais-item {
+    margin: 0 auto 20px auto;
+  }
+}
+
 /* Newsletter */
 
 .assine {
