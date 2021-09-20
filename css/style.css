@@ -410,6 +410,7 @@ h2.produtos-mineiro::before {
 }
 
 @media (max-width: 739px) {
+  width: 300px;
 }
 /* Footer */
 
