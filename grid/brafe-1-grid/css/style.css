@@ -28,12 +28,23 @@ body {
 
 .menu {
   background: #252525;
+  padding: 15px 0;
+}
+
+.menu-nav ul {
+  float: right;
+}
+.menu-nav ul li {
+  display: inline-block;
 }
 
 .menu-nav a {
   text-decoration: none;
   color: #fff;
   font-size: 1.125em;
+  display: block;
+  padding: 10px;
+  margin-left: 10px;
 }
 
 /* Intro */
