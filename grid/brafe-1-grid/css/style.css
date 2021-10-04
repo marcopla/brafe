@@ -47,12 +47,24 @@ body {
   margin-left: 10px;
 }
 
+@media (max-width: 739px) {
+  .menu-nav ul {
+    float: none;
+  }
+  .menu-nav ul li a {
+    margin-left: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
 /* Intro */
 
 .intro {
   background: url('../img/bg-intro.jpg') no-repeat center center;
   background-size: cover;
   color: #fff;
+  padding: 150px 0;
+  text-align: center;
 }
 
 .intro h1 {
@@ -66,11 +78,18 @@ body {
   width: 20px;
   height: 4px;
   background: #fff;
+  margin: 10px auto;
 }
 
 .intro p {
   font-style: italic;
   font-size: 1.125em;
+}
+
+@media (max-width: 739px) {
+  .intro {
+    padding: 40px;
+  }
 }
 
 /* Sobre */
