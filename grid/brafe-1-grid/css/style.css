@@ -94,6 +94,9 @@ body {
 
 /* Sobre */
 
+.sobre {
+  padding: 60px 0;
+}
 .sobre h2 {
   font-size: 2.25em;
 }
