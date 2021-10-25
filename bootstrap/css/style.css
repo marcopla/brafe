@@ -23,6 +23,7 @@ body {
 
 .menu {
   background: #252525;
+  padding: 15px 0;
 }
 
 .menu-nav a {
@@ -38,6 +39,11 @@ body {
 .menu-nav ul {
   float: right;
   display: flex;
+  list-style: none;
+}
+
+.menu-nav ul li a {
+  padding: 10px;
 }
 
 /* Intro */
