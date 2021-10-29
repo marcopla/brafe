@@ -96,6 +96,7 @@ body {
 
 .sobre-item {
   flex: 1;
+  margin: 0 10px;
 }
 
 .sobre-item img {
@@ -112,6 +113,9 @@ body {
   font-weight: normal;
   text-align: center;
   position: relative;
+  width: 220px;
+  padding: 5px 0 10px 0;
+  top: -25px;
 }
 
 .sobre > p {
