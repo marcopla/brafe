@@ -122,6 +122,9 @@ body {
   font-size: 1.125em;
   line-height: 1.4em;
   font-style: italic;
+  margin: 20px auto;
+  max-width: 460px;
+  text-align: center;
 }
 
 /* Produtos */
