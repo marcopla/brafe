@@ -224,6 +224,10 @@ h2.produtos-mineiro::before {
   padding: 10px 20px;
 }
 
+.locais-item > div {
+  display: flex;
+}
+
 .locais-item a {
   font-size: 1.125em;
   text-transform: uppercase;
