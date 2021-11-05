@@ -226,6 +226,7 @@ h2.produtos-mineiro::before {
 
 .locais-item > div {
   display: flex;
+  padding: 10px auto;
 }
 
 .locais-item a {
