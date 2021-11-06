@@ -304,4 +304,11 @@ h2.produtos-mineiro::before {
 .footer p {
   font-size: 1.125em;
   line-height: 1.4em;
+  margin: 0 10px;
+  flex: 1;
+}
+
+.footer-img {
+  margin: 0 10px;
+  flex: 1;
 }
