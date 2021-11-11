@@ -110,6 +110,9 @@ body {
   .intro {
     padding: 40px 0;
   }
+  .intro p {
+    padding: 0 auto;
+  }
 }
 
 /* Sobre */
