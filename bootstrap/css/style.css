@@ -384,4 +384,7 @@ h2.produtos-mineiro::before {
   footer p {
     margin: 10px 0px;
   }
+  .col-m {
+    margin: 10px 0px;
+  }
 }
