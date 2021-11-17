@@ -387,4 +387,10 @@ h2.produtos-mineiro::before {
   .col-m {
     margin: 10px 0px;
   }
+  .col-s {
+    margin: 0 10px;
+  }
+  .col-c {
+    margin: 0 10px;
+  }
 }
