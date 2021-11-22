@@ -62,23 +62,26 @@ img {
 
 .menu-nav ul {
   float: right;
-  display: flex;
   list-style: none;
 }
 
-.menu-nav ul li a {
-  padding: 10px;
+.menu-nav ul li {
+  display: inline-block;
 }
 
-@media (max-width: 739px) {
-  .menu-nav {
-    margin: 0px;
-  }
-  .menu-log {
-    margin: 0px;
+.menu-nav ul li a {
+  display: inline-block;
+  padding: 10px;
+  margin-left: 10px;
+}
+
+@media (max-width: 768px) {
+  .menu-nav ul {
+    float: none;
   }
   .menu-nav ul li a {
     padding-left: 0px;
+    margin-left: 0px;
   }
 }
 
@@ -95,6 +98,7 @@ img {
 .intro h1 {
   text-transform: uppercase;
   font-size: 3em;
+  font-weight: bold;
 }
 
 .intro h1::after {
@@ -103,7 +107,7 @@ img {
   width: 20px;
   height: 4px;
   background: #fff;
-  margin: 10px auto;
+  margin: 20px auto;
 }
 
 .intro p {
@@ -111,7 +115,7 @@ img {
   font-size: 1.125em;
 }
 
-@media (max-width: 739px) {
+@media (max-width: 768px) {
   .intro {
     padding: 60px 0;
   }
