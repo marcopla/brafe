@@ -124,7 +124,8 @@ img {
 /* Sobre */
 
 .sobre {
-  padding: 60px 0;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .sobre h2 {
@@ -333,7 +334,7 @@ h2.produtos-mineiro::before {
 
 .assine form {
   flex: 1;
-  margin: 0 10px;
+  margin-top: 10px;
   display: flex;
   flex-wrap: wrap;
   align-content: flex-start;
@@ -380,6 +381,8 @@ h2.produtos-mineiro::before {
 
 .footer {
   background: #d6d3c8;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .footer p {
@@ -389,15 +392,17 @@ h2.produtos-mineiro::before {
   flex: 1;
 }
 
-.footer-img {
+.footer img {
+  float: right;
   margin: 0 10px;
   flex: 1;
 }
 
-@media (max-width: 739px) {
-  .footer-img,
-  footer p {
-    margin: 10px 0px;
+@media (max-width: 768px) {
+  .footer img,
+  .footer p {
+    float: none;
+    margin-top: 20px;
   }
   .col-m {
     margin: 10px 0px;
