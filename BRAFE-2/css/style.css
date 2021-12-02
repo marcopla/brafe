@@ -22,3 +22,9 @@ body {
   width: 180px;
   padding: 20px;
 }
+
+/* Menu */
+
+.header-informacoes {
+  font-size: 0.875em;
+}
