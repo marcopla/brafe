@@ -63,3 +63,9 @@ body {
 .header-menu li:first-child a::before {
   content: '';
 }
+
+/* Conteúdo */
+
+.container {
+  max-width: 960px;
+}
