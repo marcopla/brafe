@@ -68,4 +68,15 @@ body {
 
 .container {
   max-width: 960px;
+  margin: 0 auto;
+}
+
+/*  Filtro */
+
+.filtro {
+  background: #e7e4d8;
+  border: 3px solid #d6d3c8;
+  width: 300px;
+  margin: 0 10px;
+  padding: 20px;
 }
