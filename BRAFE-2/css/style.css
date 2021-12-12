@@ -78,6 +78,18 @@ body {
   clear: both;
 }
 
+@media (min-width: 740px) and (max-width: 980px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (max-width: 739px) {
+  .container {
+    max-width: 300px;
+  }
+}
+
 /* FILTRO */
 
 .filtro {
@@ -87,6 +99,18 @@ body {
   margin: 0 10px;
   padding: 20px;
   float: left;
+}
+
+@media (min-width: 740px) and (max-width: 980px) {
+  .filtro {
+    width: 220px;
+  }
+}
+
+@media (max-width: 739px) {
+  .filtro {
+    display: none;
+  }
 }
 
 .filtro h2 {
