@@ -1,2 +1,16 @@
+body,
+p,
+h1,
+ul,
+li {
+  padding: 0px;
+  margin: 0px;
+}
+
+li {
+  list-style: none;
+}
+
 body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
