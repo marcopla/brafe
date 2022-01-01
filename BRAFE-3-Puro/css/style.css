@@ -13,4 +13,30 @@ li {
 
 body {
   font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #252525;
+  background: #e7e4d8;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/* HEADER */
+
+.header {
+  background: #d6d3c8;
+  padding: 20px;
+}
+
+header-logo {
+  float: left;
+}
+
+.header-menu ul {
+  float: right;
 }
