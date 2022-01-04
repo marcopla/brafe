@@ -63,3 +63,9 @@ a {
 .header-menu li:first-child a {
   padding-left: 0px;
 }
+
+/* MAIN */
+/* SIDE NAV */
+.side-nav {
+  width: 300px;
+}
