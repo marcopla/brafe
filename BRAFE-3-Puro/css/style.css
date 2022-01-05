@@ -116,3 +116,6 @@ a {
 .nav-hospedagens::before {
   background-position: 0 calc(-24px * 5);
 }
+
+.nav-added {
+}
