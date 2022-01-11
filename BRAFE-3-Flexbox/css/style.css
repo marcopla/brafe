@@ -34,6 +34,15 @@ a {
 .header {
   background: #d6d3c8;
   padding: 20px;
+  display: flex;
+}
+
+.header-logo {
+  flex-grow: 1;
+}
+
+.header-menu ul {
+  display: flex;
 }
 
 .header::after,
