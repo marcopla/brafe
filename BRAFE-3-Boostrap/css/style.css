@@ -2,3 +2,14 @@
   font-size: 2.25em;
   font-weight: bold;
 }
+
+.header-menu ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 739px) {
+  .header-menu ul {
+    margin-top: 10px;
+  }
+}
